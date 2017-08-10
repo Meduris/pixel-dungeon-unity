@@ -75,6 +75,6 @@ public class StartWindowButton : MonoBehaviour {
 
 	public void ExitButton()
 	{
-		
+		Application.Quit();
 	}
 }
