@@ -12,18 +12,51 @@ public class TitleScreenBackground : MonoBehaviour {
 	public float smallOffset = 0.95f;
 	public float bigOffset = 1.9f;
 
+	public GameObject big1;
+	public GameObject big2;
+	public GameObject small1;
+	public GameObject small2;
+
+	private Vector3 startPos_big1;
+	private Vector3 startPos_big2;
+	private Vector3 startPos_small1;
+	private Vector3 startPos_small2;
+
 	private GameObject[,] big_arcs;
 	private GameObject[,] small_arcs;
 
+	private Vector2 spriteSize;
+
 	void Start () {
-		initArcs(out small_arcs, arc_small, tileSizeSmall, smallOffset);
-		initArcs(out big_arcs, arc_big, tileSizeBig, bigOffset);
+		//initArcs(out small_arcs, arc_small, tileSizeSmall, smallOffset);
+		//initArcs(out big_arcs, arc_big, tileSizeBig, bigOffset);
+		startPos_big1 = big1.transform.position;
+		startPos_small1 = small1.transform.position;
+		float camHeight = Camera.main.pixelHeight / 200f;
+		float camWidth = Camera.main.pixelWidth / 200f;
+		spriteSize = new Vector2(camWidth, camHeight);
+		big1.GetComponent<SpriteRenderer>().size = spriteSize;
+		small1.GetComponent<SpriteRenderer>().size = spriteSize;
+		big2.GetComponent<SpriteRenderer>().size = spriteSize;
+		small2.GetComponent<SpriteRenderer>().size = spriteSize;
+
+		startPos_big2 = startPos_big1 + (spriteSize.y * 3) * Vector3.down;
+		startPos_small2 = startPos_small1 + (spriteSize.y * 3) * Vector3.down;
+
+		big2.transform.position = startPos_big2;
+		small2.transform.position = startPos_small2;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		updatePosition(small_arcs, scrollSpeedSmall, smallOffset);
-		updatePosition(big_arcs, scrollSpeedBig, bigOffset);
+		//updatePosition(small_arcs, scrollSpeedSmall, smallOffset);
+		//updatePosition(big_arcs, scrollSpeedBig, bigOffset);
+		float newPosSmall = Mathf.Repeat(Time.time * scrollSpeedSmall, spriteSize.y);
+		float newPosBig = Mathf.Repeat(Time.time * scrollSpeedBig, spriteSize.y);
+		big1.transform.position = startPos_big1 + newPosBig * Vector3.up;
+		big2.transform.position = startPos_big2 + newPosBig * Vector3.up;
+		small1.transform.position = startPos_small1 + newPosSmall * Vector3.up;
+		small2.transform.position = startPos_small2 + newPosSmall * Vector3.up;
 	}
 
 	private void initArcs(out GameObject[,] arcs, GameObject arc, int tileSize, float offset)
