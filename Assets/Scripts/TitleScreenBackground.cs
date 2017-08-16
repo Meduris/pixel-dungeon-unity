@@ -11,8 +11,6 @@ public class TitleScreenBackground : MonoBehaviour {
 	public GameObject small1;
 	public GameObject small2;
 
-	public float sizeMult = .64f;
-
 	private Vector3 startPos_big1;
 	private Vector3 startPos_big2;
 	private Vector3 startPos_small1;
