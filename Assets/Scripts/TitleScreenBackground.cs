@@ -6,45 +6,49 @@ public class TitleScreenBackground : MonoBehaviour {
 	public float scrollSpeedSmall;
 	public float scrollSpeedBig;
 
-	public GameObject big1;
-	public GameObject big2;
-	public GameObject small1;
-	public GameObject small2;
+	public GameObject bigPrefab;
+	public GameObject smallPrefab;
 
-	private Vector3 startPos_big1;
-	private Vector3 startPos_big2;
-	private Vector3 startPos_small1;
-	private Vector3 startPos_small2;
+	private Vector3 startPos_upper;
+	private Vector3 startPos_lower;
 
 	private Vector2 spriteSize;
 
 	private float worldScreenHeight;
 	private float worldScreenWidth;
 
+	private GameObject big1;
+	private GameObject big2;
+	private GameObject small1;
+	private GameObject small2;
+
 	void Start () {
-		startPos_big1 = big1.transform.position;
-		startPos_small1 = small1.transform.position;
 		worldScreenHeight = Camera.main.orthographicSize * 2.0f;
 		worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
+		
 		spriteSize = new Vector2(worldScreenWidth * .32f + .32f, worldScreenHeight * .32f + .32f);
-		big1.GetComponent<SpriteRenderer>().size = spriteSize;
-		small1.GetComponent<SpriteRenderer>().size = spriteSize;
-		big2.GetComponent<SpriteRenderer>().size = spriteSize;
-		small2.GetComponent<SpriteRenderer>().size = spriteSize;
 
-		startPos_big2 = startPos_big1 + (worldScreenHeight + .56f) * Vector3.down;
-		startPos_small2 = startPos_small1 + (worldScreenHeight + .56f) * Vector3.down;
+		startPos_upper = new Vector3(0.0f, 0.0f, 0.0f);
+		startPos_lower = startPos_upper + (worldScreenHeight + .56f) * Vector3.down;
 
-		big2.transform.position = startPos_big2;
-		small2.transform.position = startPos_small2;
+		InstantiatePrefab(bigPrefab, out big1, startPos_upper);
+		InstantiatePrefab(bigPrefab, out big2, startPos_lower);
+		InstantiatePrefab(smallPrefab, out small1, startPos_upper);
+		InstantiatePrefab(smallPrefab, out small2, startPos_lower);
 	}
 	
 	void Update () {
 		float newPosSmall = Mathf.Repeat(Time.time * scrollSpeedSmall, worldScreenHeight + .56f);
 		float newPosBig = Mathf.Repeat(Time.time * scrollSpeedBig, worldScreenHeight + .56f);
-		big1.transform.position = startPos_big1 + newPosBig * Vector3.up;
-		big2.transform.position = startPos_big2 + newPosBig * Vector3.up;
-		small1.transform.position = startPos_small1 + newPosSmall * Vector3.up;
-		small2.transform.position = startPos_small2 + newPosSmall * Vector3.up;
+		big1.transform.position = startPos_upper + newPosBig * Vector3.up;
+		big2.transform.position = startPos_lower + newPosBig * Vector3.up;
+		small1.transform.position = startPos_upper + newPosSmall * Vector3.up;
+		small2.transform.position = startPos_lower + newPosSmall * Vector3.up;
+	}
+
+	private void InstantiatePrefab(GameObject prefab, out GameObject target, Vector3 position) {
+		target = Instantiate (prefab, position, Quaternion.identity) as GameObject;
+		target.GetComponent<SpriteRenderer>().size = spriteSize;
+		target.transform.SetParent(gameObject.transform);
 	}
 }
