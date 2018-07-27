@@ -20,13 +20,13 @@ public class HeroSelectWindowButton : MonoBehaviour {
 		Rogue,
 		Huntress
 	};
-	private HeroClass selected ;
+	private HeroClass _selected ;
 
 	public void Warrior()
 	{
-		if (selected != HeroClass.Warrior)
+		if (_selected != HeroClass.Warrior)
 		{
-			selected = HeroClass.Warrior;
+			_selected = HeroClass.Warrior;
 			return;
 		}
 		ShowInfo();
@@ -34,9 +34,9 @@ public class HeroSelectWindowButton : MonoBehaviour {
 
 	public void Mage()
 	{
-		if (selected != HeroClass.Mage)
+		if (_selected != HeroClass.Mage)
 		{
-			selected = HeroClass.Mage;
+			_selected = HeroClass.Mage;
 			return;
 		}
 		ShowInfo();
@@ -44,9 +44,9 @@ public class HeroSelectWindowButton : MonoBehaviour {
 
 	public void Rogue()
 	{
-		if (selected != HeroClass.Rogue)
+		if (_selected != HeroClass.Rogue)
 		{
-			selected = HeroClass.Rogue;
+			_selected = HeroClass.Rogue;
 			return;
 		}
 		ShowInfo();
@@ -54,9 +54,9 @@ public class HeroSelectWindowButton : MonoBehaviour {
 
 	public void Huntress()
 	{
-		if (selected != HeroClass.Huntress)
+		if (_selected != HeroClass.Huntress)
 		{
-			selected = HeroClass.Huntress;
+			_selected = HeroClass.Huntress;
 			return;
 		}
 		ShowInfo();
@@ -81,7 +81,7 @@ public class HeroSelectWindowButton : MonoBehaviour {
 	private String GetName()
 	{
 		String result = "error";
-		switch (selected)
+		switch (_selected)
 		{
 			case HeroClass.Warrior:
 				result = "Warrior";
@@ -106,7 +106,7 @@ public class HeroSelectWindowButton : MonoBehaviour {
 	{
 		String result = "error";
 
-		switch (selected)
+		switch (_selected)
 		{
 			case HeroClass.Warrior:
 				result = "- Warriors start with 11 points of Strength.\n" +
