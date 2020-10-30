@@ -1,157 +1,450 @@
 fileFormatVersion: 2
 guid: 6ba8f65ba8790414d8faab37e3aa4f67
-timeCreated: 1501252036
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: warrior_0
-    21300002: warrior_1
-    21300004: warrior_2
-    21300006: warrior_3
-    21300008: warrior_4
-    21300010: warrior_5
-    21300012: warrior_6
-    21300014: warrior_7
-    21300016: warrior_8
-    21300018: warrior_9
-    21300020: warrior_10
-    21300022: warrior_11
-    21300024: warrior_12
-    21300026: warrior_13
-    21300028: warrior_14
-    21300030: warrior_15
-    21300032: warrior_16
-    21300034: warrior_17
-    21300036: warrior_18
-    21300038: warrior_19
-    21300040: warrior_20
-    21300042: warrior_21
-    21300044: warrior_22
-    21300046: warrior_23
-    21300048: warrior_24
-    21300050: warrior_25
-    21300052: warrior_26
-    21300054: warrior_27
-    21300056: warrior_28
-    21300058: warrior_29
-    21300060: warrior_30
-    21300062: warrior_31
-    21300064: warrior_32
-    21300066: warrior_33
-    21300068: warrior_34
-    21300070: warrior_35
-    21300072: warrior_36
-    21300074: warrior_37
-    21300076: warrior_38
-    21300078: warrior_39
-    21300080: warrior_40
-    21300082: warrior_41
-    21300084: warrior_42
-    21300086: warrior_43
-    21300088: warrior_44
-    21300090: warrior_45
-    21300092: warrior_46
-    21300094: warrior_47
-    21300096: warrior_48
-    21300098: warrior_49
-    21300100: warrior_50
-    21300102: warrior_51
-    21300104: warrior_52
-    21300106: warrior_53
-    21300108: warrior_54
-    21300110: warrior_55
-    21300112: warrior_56
-    21300114: warrior_57
-    21300116: warrior_58
-    21300118: warrior_59
-    21300120: warrior_60
-    21300122: warrior_61
-    21300124: warrior_62
-    21300126: warrior_63
-    21300128: warrior_64
-    21300130: warrior_65
-    21300132: warrior_66
-    21300134: warrior_67
-    21300136: warrior_68
-    21300138: warrior_69
-    21300140: warrior_70
-    21300142: warrior_71
-    21300144: warrior_72
-    21300146: warrior_73
-    21300148: warrior_74
-    21300150: warrior_75
-    21300152: warrior_76
-    21300154: warrior_77
-    21300156: warrior_78
-    21300158: warrior_79
-    21300160: warrior_80
-    21300162: warrior_81
-    21300164: warrior_82
-    21300166: warrior_83
-    21300168: warrior_84
-    21300170: warrior_85
-    21300172: warrior_86
-    21300174: warrior_87
-    21300176: warrior_88
-    21300178: warrior_89
-    21300180: warrior_90
-    21300182: warrior_91
-    21300184: warrior_92
-    21300186: warrior_93
-    21300188: warrior_94
-    21300190: warrior_95
-    21300192: warrior_96
-    21300194: warrior_97
-    21300196: warrior_98
-    21300198: warrior_99
-    21300200: warrior_100
-    21300202: warrior_101
-    21300204: warrior_102
-    21300206: warrior_103
-    21300208: warrior_104
-    21300210: warrior_105
-    21300212: warrior_106
-    21300214: warrior_107
-    21300216: warrior_108
-    21300218: warrior_109
-    21300220: warrior_110
-    21300222: warrior_111
-    21300224: warrior_112
-    21300226: warrior_113
-    21300228: warrior_114
-    21300230: warrior_115
-    21300232: warrior_116
-    21300234: warrior_117
-    21300236: warrior_118
-    21300238: warrior_119
-    21300240: warrior_120
-    21300242: warrior_121
-    21300244: warrior_122
-    21300246: warrior_123
-    21300248: warrior_124
-    21300250: warrior_125
-    21300252: warrior_126
-    21300254: warrior_127
-    21300256: warrior_128
-    21300258: warrior_129
-    21300260: warrior_130
-    21300262: warrior_131
-    21300264: warrior_132
-    21300266: warrior_133
-    21300268: warrior_134
-    21300270: warrior_135
-    21300272: warrior_136
-    21300274: warrior_137
-    21300276: warrior_138
-    21300278: warrior_139
-    21300280: warrior_140
-    21300282: warrior_141
-    21300284: warrior_142
-    21300286: warrior_143
-    21300288: warrior_144
-    21300290: warrior_145
-    21300292: warrior_146
-  serializedVersion: 4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: warrior_0
+  - first:
+      213: 21300002
+    second: warrior_1
+  - first:
+      213: 21300004
+    second: warrior_2
+  - first:
+      213: 21300006
+    second: warrior_3
+  - first:
+      213: 21300008
+    second: warrior_4
+  - first:
+      213: 21300010
+    second: warrior_5
+  - first:
+      213: 21300012
+    second: warrior_6
+  - first:
+      213: 21300014
+    second: warrior_7
+  - first:
+      213: 21300016
+    second: warrior_8
+  - first:
+      213: 21300018
+    second: warrior_9
+  - first:
+      213: 21300020
+    second: warrior_10
+  - first:
+      213: 21300022
+    second: warrior_11
+  - first:
+      213: 21300024
+    second: warrior_12
+  - first:
+      213: 21300026
+    second: warrior_13
+  - first:
+      213: 21300028
+    second: warrior_14
+  - first:
+      213: 21300030
+    second: warrior_15
+  - first:
+      213: 21300032
+    second: warrior_16
+  - first:
+      213: 21300034
+    second: warrior_17
+  - first:
+      213: 21300036
+    second: warrior_18
+  - first:
+      213: 21300038
+    second: warrior_19
+  - first:
+      213: 21300040
+    second: warrior_20
+  - first:
+      213: 21300042
+    second: warrior_21
+  - first:
+      213: 21300044
+    second: warrior_22
+  - first:
+      213: 21300046
+    second: warrior_23
+  - first:
+      213: 21300048
+    second: warrior_24
+  - first:
+      213: 21300050
+    second: warrior_25
+  - first:
+      213: 21300052
+    second: warrior_26
+  - first:
+      213: 21300054
+    second: warrior_27
+  - first:
+      213: 21300056
+    second: warrior_28
+  - first:
+      213: 21300058
+    second: warrior_29
+  - first:
+      213: 21300060
+    second: warrior_30
+  - first:
+      213: 21300062
+    second: warrior_31
+  - first:
+      213: 21300064
+    second: warrior_32
+  - first:
+      213: 21300066
+    second: warrior_33
+  - first:
+      213: 21300068
+    second: warrior_34
+  - first:
+      213: 21300070
+    second: warrior_35
+  - first:
+      213: 21300072
+    second: warrior_36
+  - first:
+      213: 21300074
+    second: warrior_37
+  - first:
+      213: 21300076
+    second: warrior_38
+  - first:
+      213: 21300078
+    second: warrior_39
+  - first:
+      213: 21300080
+    second: warrior_40
+  - first:
+      213: 21300082
+    second: warrior_41
+  - first:
+      213: 21300084
+    second: warrior_42
+  - first:
+      213: 21300086
+    second: warrior_43
+  - first:
+      213: 21300088
+    second: warrior_44
+  - first:
+      213: 21300090
+    second: warrior_45
+  - first:
+      213: 21300092
+    second: warrior_46
+  - first:
+      213: 21300094
+    second: warrior_47
+  - first:
+      213: 21300096
+    second: warrior_48
+  - first:
+      213: 21300098
+    second: warrior_49
+  - first:
+      213: 21300100
+    second: warrior_50
+  - first:
+      213: 21300102
+    second: warrior_51
+  - first:
+      213: 21300104
+    second: warrior_52
+  - first:
+      213: 21300106
+    second: warrior_53
+  - first:
+      213: 21300108
+    second: warrior_54
+  - first:
+      213: 21300110
+    second: warrior_55
+  - first:
+      213: 21300112
+    second: warrior_56
+  - first:
+      213: 21300114
+    second: warrior_57
+  - first:
+      213: 21300116
+    second: warrior_58
+  - first:
+      213: 21300118
+    second: warrior_59
+  - first:
+      213: 21300120
+    second: warrior_60
+  - first:
+      213: 21300122
+    second: warrior_61
+  - first:
+      213: 21300124
+    second: warrior_62
+  - first:
+      213: 21300126
+    second: warrior_63
+  - first:
+      213: 21300128
+    second: warrior_64
+  - first:
+      213: 21300130
+    second: warrior_65
+  - first:
+      213: 21300132
+    second: warrior_66
+  - first:
+      213: 21300134
+    second: warrior_67
+  - first:
+      213: 21300136
+    second: warrior_68
+  - first:
+      213: 21300138
+    second: warrior_69
+  - first:
+      213: 21300140
+    second: warrior_70
+  - first:
+      213: 21300142
+    second: warrior_71
+  - first:
+      213: 21300144
+    second: warrior_72
+  - first:
+      213: 21300146
+    second: warrior_73
+  - first:
+      213: 21300148
+    second: warrior_74
+  - first:
+      213: 21300150
+    second: warrior_75
+  - first:
+      213: 21300152
+    second: warrior_76
+  - first:
+      213: 21300154
+    second: warrior_77
+  - first:
+      213: 21300156
+    second: warrior_78
+  - first:
+      213: 21300158
+    second: warrior_79
+  - first:
+      213: 21300160
+    second: warrior_80
+  - first:
+      213: 21300162
+    second: warrior_81
+  - first:
+      213: 21300164
+    second: warrior_82
+  - first:
+      213: 21300166
+    second: warrior_83
+  - first:
+      213: 21300168
+    second: warrior_84
+  - first:
+      213: 21300170
+    second: warrior_85
+  - first:
+      213: 21300172
+    second: warrior_86
+  - first:
+      213: 21300174
+    second: warrior_87
+  - first:
+      213: 21300176
+    second: warrior_88
+  - first:
+      213: 21300178
+    second: warrior_89
+  - first:
+      213: 21300180
+    second: warrior_90
+  - first:
+      213: 21300182
+    second: warrior_91
+  - first:
+      213: 21300184
+    second: warrior_92
+  - first:
+      213: 21300186
+    second: warrior_93
+  - first:
+      213: 21300188
+    second: warrior_94
+  - first:
+      213: 21300190
+    second: warrior_95
+  - first:
+      213: 21300192
+    second: warrior_96
+  - first:
+      213: 21300194
+    second: warrior_97
+  - first:
+      213: 21300196
+    second: warrior_98
+  - first:
+      213: 21300198
+    second: warrior_99
+  - first:
+      213: 21300200
+    second: warrior_100
+  - first:
+      213: 21300202
+    second: warrior_101
+  - first:
+      213: 21300204
+    second: warrior_102
+  - first:
+      213: 21300206
+    second: warrior_103
+  - first:
+      213: 21300208
+    second: warrior_104
+  - first:
+      213: 21300210
+    second: warrior_105
+  - first:
+      213: 21300212
+    second: warrior_106
+  - first:
+      213: 21300214
+    second: warrior_107
+  - first:
+      213: 21300216
+    second: warrior_108
+  - first:
+      213: 21300218
+    second: warrior_109
+  - first:
+      213: 21300220
+    second: warrior_110
+  - first:
+      213: 21300222
+    second: warrior_111
+  - first:
+      213: 21300224
+    second: warrior_112
+  - first:
+      213: 21300226
+    second: warrior_113
+  - first:
+      213: 21300228
+    second: warrior_114
+  - first:
+      213: 21300230
+    second: warrior_115
+  - first:
+      213: 21300232
+    second: warrior_116
+  - first:
+      213: 21300234
+    second: warrior_117
+  - first:
+      213: 21300236
+    second: warrior_118
+  - first:
+      213: 21300238
+    second: warrior_119
+  - first:
+      213: 21300240
+    second: warrior_120
+  - first:
+      213: 21300242
+    second: warrior_121
+  - first:
+      213: 21300244
+    second: warrior_122
+  - first:
+      213: 21300246
+    second: warrior_123
+  - first:
+      213: 21300248
+    second: warrior_124
+  - first:
+      213: 21300250
+    second: warrior_125
+  - first:
+      213: 21300252
+    second: warrior_126
+  - first:
+      213: 21300254
+    second: warrior_127
+  - first:
+      213: 21300256
+    second: warrior_128
+  - first:
+      213: 21300258
+    second: warrior_129
+  - first:
+      213: 21300260
+    second: warrior_130
+  - first:
+      213: 21300262
+    second: warrior_131
+  - first:
+      213: 21300264
+    second: warrior_132
+  - first:
+      213: 21300266
+    second: warrior_133
+  - first:
+      213: 21300268
+    second: warrior_134
+  - first:
+      213: 21300270
+    second: warrior_135
+  - first:
+      213: 21300272
+    second: warrior_136
+  - first:
+      213: 21300274
+    second: warrior_137
+  - first:
+      213: 21300276
+    second: warrior_138
+  - first:
+      213: 21300278
+    second: warrior_139
+  - first:
+      213: 21300280
+    second: warrior_140
+  - first:
+      213: 21300282
+    second: warrior_141
+  - first:
+      213: 21300284
+    second: warrior_142
+  - first:
+      213: 21300286
+    second: warrior_143
+  - first:
+      213: 21300288
+    second: warrior_144
+  - first:
+      213: 21300290
+    second: warrior_145
+  - first:
+      213: 21300292
+    second: warrior_146
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -169,6 +462,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -179,7 +474,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -191,73 +486,104 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: iPhone
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Android
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Tizen
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Tizen
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: WebGL
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Samsung TV
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Samsung TV
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -275,6 +601,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_1
       rect:
@@ -289,6 +622,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_2
       rect:
@@ -303,6 +643,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_3
       rect:
@@ -317,6 +664,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_4
       rect:
@@ -331,6 +685,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_5
       rect:
@@ -345,6 +706,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_6
       rect:
@@ -359,6 +727,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_7
       rect:
@@ -373,6 +748,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_8
       rect:
@@ -387,6 +769,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_9
       rect:
@@ -401,6 +790,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_10
       rect:
@@ -415,6 +811,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_11
       rect:
@@ -429,6 +832,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_12
       rect:
@@ -443,6 +853,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_13
       rect:
@@ -457,6 +874,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_14
       rect:
@@ -471,6 +895,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_15
       rect:
@@ -485,6 +916,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_16
       rect:
@@ -499,6 +937,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_17
       rect:
@@ -513,6 +958,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_18
       rect:
@@ -527,6 +979,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_19
       rect:
@@ -541,6 +1000,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_20
       rect:
@@ -555,6 +1021,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_21
       rect:
@@ -569,6 +1042,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_22
       rect:
@@ -583,6 +1063,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_23
       rect:
@@ -597,6 +1084,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_24
       rect:
@@ -611,6 +1105,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_25
       rect:
@@ -625,6 +1126,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_26
       rect:
@@ -639,6 +1147,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_27
       rect:
@@ -653,6 +1168,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_28
       rect:
@@ -667,6 +1189,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_29
       rect:
@@ -681,6 +1210,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_30
       rect:
@@ -695,6 +1231,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_31
       rect:
@@ -709,6 +1252,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_32
       rect:
@@ -723,6 +1273,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_33
       rect:
@@ -737,6 +1294,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_34
       rect:
@@ -751,6 +1315,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_35
       rect:
@@ -765,6 +1336,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_36
       rect:
@@ -779,6 +1357,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_37
       rect:
@@ -793,6 +1378,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_38
       rect:
@@ -807,6 +1399,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_39
       rect:
@@ -821,6 +1420,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_40
       rect:
@@ -835,6 +1441,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_41
       rect:
@@ -849,6 +1462,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_42
       rect:
@@ -863,6 +1483,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_43
       rect:
@@ -877,6 +1504,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_44
       rect:
@@ -891,6 +1525,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_45
       rect:
@@ -905,6 +1546,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_46
       rect:
@@ -919,6 +1567,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_47
       rect:
@@ -933,6 +1588,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_48
       rect:
@@ -947,6 +1609,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_49
       rect:
@@ -961,6 +1630,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_50
       rect:
@@ -975,6 +1651,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 48305410000000000800000000000000
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_51
       rect:
@@ -989,6 +1672,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 68305410000000000800000000000000
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_52
       rect:
@@ -1003,6 +1693,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 88305410000000000800000000000000
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_53
       rect:
@@ -1017,6 +1714,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a8305410000000000800000000000000
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_54
       rect:
@@ -1031,6 +1735,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c8305410000000000800000000000000
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_55
       rect:
@@ -1045,6 +1756,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e8305410000000000800000000000000
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_56
       rect:
@@ -1059,6 +1777,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 09305410000000000800000000000000
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_57
       rect:
@@ -1073,6 +1798,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 29305410000000000800000000000000
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_58
       rect:
@@ -1087,6 +1819,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 49305410000000000800000000000000
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_59
       rect:
@@ -1101,6 +1840,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 69305410000000000800000000000000
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_60
       rect:
@@ -1115,6 +1861,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 89305410000000000800000000000000
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_61
       rect:
@@ -1129,6 +1882,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a9305410000000000800000000000000
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_62
       rect:
@@ -1143,6 +1903,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c9305410000000000800000000000000
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_63
       rect:
@@ -1157,6 +1924,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e9305410000000000800000000000000
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_64
       rect:
@@ -1171,6 +1945,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0a305410000000000800000000000000
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_65
       rect:
@@ -1185,6 +1966,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2a305410000000000800000000000000
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_66
       rect:
@@ -1199,6 +1987,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4a305410000000000800000000000000
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_67
       rect:
@@ -1213,6 +2008,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6a305410000000000800000000000000
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_68
       rect:
@@ -1227,6 +2029,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8a305410000000000800000000000000
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_69
       rect:
@@ -1241,6 +2050,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aa305410000000000800000000000000
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_70
       rect:
@@ -1255,6 +2071,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ca305410000000000800000000000000
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_71
       rect:
@@ -1269,6 +2092,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_72
       rect:
@@ -1283,6 +2113,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_73
       rect:
@@ -1297,6 +2134,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2b305410000000000800000000000000
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_74
       rect:
@@ -1311,6 +2155,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_75
       rect:
@@ -1325,6 +2176,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6b305410000000000800000000000000
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_76
       rect:
@@ -1339,6 +2197,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8b305410000000000800000000000000
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_77
       rect:
@@ -1353,6 +2218,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ab305410000000000800000000000000
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_78
       rect:
@@ -1367,6 +2239,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cb305410000000000800000000000000
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_79
       rect:
@@ -1381,6 +2260,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: eb305410000000000800000000000000
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_80
       rect:
@@ -1395,6 +2281,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0c305410000000000800000000000000
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_81
       rect:
@@ -1409,6 +2302,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2c305410000000000800000000000000
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_82
       rect:
@@ -1423,6 +2323,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4c305410000000000800000000000000
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_83
       rect:
@@ -1437,6 +2344,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6c305410000000000800000000000000
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_84
       rect:
@@ -1451,6 +2365,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8c305410000000000800000000000000
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_85
       rect:
@@ -1465,6 +2386,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ac305410000000000800000000000000
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_86
       rect:
@@ -1479,6 +2407,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cc305410000000000800000000000000
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_87
       rect:
@@ -1493,6 +2428,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ec305410000000000800000000000000
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_88
       rect:
@@ -1507,6 +2449,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0d305410000000000800000000000000
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_89
       rect:
@@ -1521,6 +2470,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2d305410000000000800000000000000
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_90
       rect:
@@ -1535,6 +2491,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4d305410000000000800000000000000
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_91
       rect:
@@ -1549,6 +2512,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6d305410000000000800000000000000
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_92
       rect:
@@ -1563,6 +2533,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8d305410000000000800000000000000
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_93
       rect:
@@ -1577,6 +2554,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ad305410000000000800000000000000
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_94
       rect:
@@ -1591,6 +2575,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cd305410000000000800000000000000
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_95
       rect:
@@ -1605,6 +2596,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ed305410000000000800000000000000
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_96
       rect:
@@ -1619,6 +2617,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0e305410000000000800000000000000
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_97
       rect:
@@ -1633,6 +2638,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2e305410000000000800000000000000
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_98
       rect:
@@ -1647,6 +2659,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4e305410000000000800000000000000
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_99
       rect:
@@ -1661,6 +2680,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6e305410000000000800000000000000
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_100
       rect:
@@ -1675,6 +2701,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8e305410000000000800000000000000
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_101
       rect:
@@ -1689,6 +2722,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ae305410000000000800000000000000
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_102
       rect:
@@ -1703,6 +2743,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ce305410000000000800000000000000
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_103
       rect:
@@ -1717,6 +2764,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ee305410000000000800000000000000
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_104
       rect:
@@ -1731,6 +2785,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0f305410000000000800000000000000
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_105
       rect:
@@ -1745,6 +2806,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2f305410000000000800000000000000
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_106
       rect:
@@ -1759,6 +2827,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4f305410000000000800000000000000
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_107
       rect:
@@ -1773,6 +2848,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6f305410000000000800000000000000
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_108
       rect:
@@ -1787,6 +2869,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8f305410000000000800000000000000
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_109
       rect:
@@ -1801,6 +2890,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: af305410000000000800000000000000
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_110
       rect:
@@ -1815,6 +2911,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cf305410000000000800000000000000
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_111
       rect:
@@ -1829,6 +2932,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ef305410000000000800000000000000
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_112
       rect:
@@ -1843,6 +2953,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 00405410000000000800000000000000
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_113
       rect:
@@ -1857,6 +2974,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 20405410000000000800000000000000
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_114
       rect:
@@ -1871,6 +2995,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 40405410000000000800000000000000
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_115
       rect:
@@ -1885,6 +3016,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 60405410000000000800000000000000
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_116
       rect:
@@ -1899,6 +3037,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 80405410000000000800000000000000
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_117
       rect:
@@ -1913,6 +3058,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a0405410000000000800000000000000
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_118
       rect:
@@ -1927,6 +3079,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c0405410000000000800000000000000
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_119
       rect:
@@ -1941,6 +3100,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e0405410000000000800000000000000
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_120
       rect:
@@ -1955,6 +3121,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 01405410000000000800000000000000
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_121
       rect:
@@ -1969,6 +3142,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 21405410000000000800000000000000
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_122
       rect:
@@ -1983,6 +3163,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 41405410000000000800000000000000
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_123
       rect:
@@ -1997,6 +3184,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 61405410000000000800000000000000
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_124
       rect:
@@ -2011,6 +3205,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 81405410000000000800000000000000
+      internalID: 21300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_125
       rect:
@@ -2025,6 +3226,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a1405410000000000800000000000000
+      internalID: 21300250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_126
       rect:
@@ -2039,6 +3247,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c1405410000000000800000000000000
+      internalID: 21300252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_127
       rect:
@@ -2053,6 +3268,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e1405410000000000800000000000000
+      internalID: 21300254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_128
       rect:
@@ -2067,6 +3289,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 02405410000000000800000000000000
+      internalID: 21300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_129
       rect:
@@ -2081,6 +3310,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22405410000000000800000000000000
+      internalID: 21300258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_130
       rect:
@@ -2095,6 +3331,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 42405410000000000800000000000000
+      internalID: 21300260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_131
       rect:
@@ -2109,6 +3352,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 62405410000000000800000000000000
+      internalID: 21300262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_132
       rect:
@@ -2123,6 +3373,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82405410000000000800000000000000
+      internalID: 21300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_133
       rect:
@@ -2137,6 +3394,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2405410000000000800000000000000
+      internalID: 21300266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_134
       rect:
@@ -2151,6 +3415,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2405410000000000800000000000000
+      internalID: 21300268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_135
       rect:
@@ -2165,6 +3436,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2405410000000000800000000000000
+      internalID: 21300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_136
       rect:
@@ -2179,6 +3457,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03405410000000000800000000000000
+      internalID: 21300272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_137
       rect:
@@ -2193,6 +3478,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 23405410000000000800000000000000
+      internalID: 21300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_138
       rect:
@@ -2207,6 +3499,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 43405410000000000800000000000000
+      internalID: 21300276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_139
       rect:
@@ -2221,6 +3520,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 63405410000000000800000000000000
+      internalID: 21300278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_140
       rect:
@@ -2235,6 +3541,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 83405410000000000800000000000000
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_141
       rect:
@@ -2249,6 +3562,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a3405410000000000800000000000000
+      internalID: 21300282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_142
       rect:
@@ -2263,6 +3583,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3405410000000000800000000000000
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_143
       rect:
@@ -2277,6 +3604,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e3405410000000000800000000000000
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_144
       rect:
@@ -2291,6 +3625,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 04405410000000000800000000000000
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_145
       rect:
@@ -2305,6 +3646,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 24405410000000000800000000000000
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: warrior_146
       rect:
@@ -2319,9 +3667,26 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 44405410000000000800000000000000
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
