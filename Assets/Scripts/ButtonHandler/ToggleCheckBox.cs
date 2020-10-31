@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class ToggleCheckBox : MonoBehaviour
@@ -9,14 +7,22 @@ public class ToggleCheckBox : MonoBehaviour
     public Sprite uncheckedImg;
 
     public GameObject checkBox;
-    private bool ticked = true;
+    public ValueAccessor checkBoxState;
+
+    private void OnEnable()
+    {
+        UpdateCheckBox();
+    }
 
     public void toggleCheckBox()
     {
-        ticked = !ticked;
-        if (ticked)
-            checkBox.GetComponent<Image>().sprite = checkedImg;
-        else
-            checkBox.GetComponent<Image>().sprite = uncheckedImg;
+        var ticked = !checkBoxState.GetValue<bool>();
+        checkBoxState.SetValue(ticked);
+        UpdateCheckBox();
+    }
+
+    private void UpdateCheckBox()
+    {
+        checkBox.GetComponent<Image>().sprite = checkBoxState.GetValue<bool>() ? checkedImg : uncheckedImg;
     }
 }

@@ -165,6 +165,7 @@ GameObject:
   - component: {fileID: 114534564308379786}
   - component: {fileID: 114341491015176062}
   - component: {fileID: 114347058726929412}
+  - component: {fileID: 1455559349201570826}
   m_Layer: 5
   m_Name: ButtonToggleable
   m_TagString: Untagged
@@ -299,3 +300,20 @@ MonoBehaviour:
   checkedImg: {fileID: 21300044, guid: 6f72faa3131ec4ac9b218c4ed36bc77b, type: 3}
   uncheckedImg: {fileID: 21300046, guid: 6f72faa3131ec4ac9b218c4ed36bc77b, type: 3}
   checkBox: {fileID: 1214189465947950}
+  checkBoxState: {fileID: 1455559349201570826}
+--- !u!114 &1455559349201570826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629956667695394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b60d65fd269659b44b8cd12911c6cb55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SourceMemberName: 
+  Source: {fileID: 0}
+  FormatString: 
+  bindingType: 0

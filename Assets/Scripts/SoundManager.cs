@@ -7,9 +7,32 @@ public class SoundManager : MonoBehaviour
     public AudioSource music;
     public AudioSource soundFX;
 
-    public static bool musicEnabled = true;
-    public static bool soundFXEnabled = true;
+    public bool musicEnabled
+    {
+        get => !music.mute;
+        set
+        {
+            if (value)
+            {
+                music.Play();
+            }
+            else
+            {
+                music.Stop();
+            }
+            music.mute = !value;
+        }
+    }
 
+    public bool soundFXEnabled
+    {
+        get => !soundFX.mute;
+        set
+        {
+            soundFX.mute = !value;
+        }
+    }
+    
     private SoundManager instance;
 
     void Awake()
@@ -20,30 +43,6 @@ public class SoundManager : MonoBehaviour
             Destroy(gameObject);
 
         DontDestroyOnLoad(gameObject);
-    }
-
-    public void toggleMusic()
-    {
-        musicEnabled = !musicEnabled;
-        if (musicEnabled)
-        {
-            music.Play();
-            music.mute = false;
-        }
-        else
-        {
-            music.Stop();
-            music.mute = true;
-        }
-    }
-
-    public void toggleSoundFX()
-    {
-        soundFXEnabled = !soundFXEnabled;
-        if (soundFXEnabled)
-            soundFX.mute = false;
-        else
-            soundFX.mute = true;
     }
 
     public void playSoundFX(AudioClip clip)

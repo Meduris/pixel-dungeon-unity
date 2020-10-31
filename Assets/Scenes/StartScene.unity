@@ -1406,7 +1406,7 @@ PrefabInstance:
     - target: {fileID: 114341491015176062, guid: 4ab40391b795d47758194155f5e8acdb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114341491015176062, guid: 4ab40391b795d47758194155f5e8acdb,
         type: 3}
@@ -1537,6 +1537,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455559349201570826, guid: 4ab40391b795d47758194155f5e8acdb,
+        type: 3}
+      propertyPath: Source
+      value: 
+      objectReference: {fileID: 1241047701}
+    - target: {fileID: 1455559349201570826, guid: 4ab40391b795d47758194155f5e8acdb,
+        type: 3}
+      propertyPath: FormatString
+      value: '{0}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455559349201570826, guid: 4ab40391b795d47758194155f5e8acdb,
+        type: 3}
+      propertyPath: bindingType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455559349201570826, guid: 4ab40391b795d47758194155f5e8acdb,
+        type: 3}
+      propertyPath: SourceMemberName
+      value: musicEnabled
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ab40391b795d47758194155f5e8acdb, type: 3}
@@ -4101,6 +4121,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455559349201570826, guid: 4ab40391b795d47758194155f5e8acdb,
+        type: 3}
+      propertyPath: Source
+      value: 
+      objectReference: {fileID: 1241047701}
+    - target: {fileID: 1455559349201570826, guid: 4ab40391b795d47758194155f5e8acdb,
+        type: 3}
+      propertyPath: FormatString
+      value: '{0}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455559349201570826, guid: 4ab40391b795d47758194155f5e8acdb,
+        type: 3}
+      propertyPath: bindingType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455559349201570826, guid: 4ab40391b795d47758194155f5e8acdb,
+        type: 3}
+      propertyPath: SourceMemberName
+      value: soundFXEnabled
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ab40391b795d47758194155f5e8acdb, type: 3}
