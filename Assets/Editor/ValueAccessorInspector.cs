@@ -11,7 +11,7 @@ public class ValueAccessorInspector : Editor
 {
     [SerializeField] private int _sourceIndex;
     [SerializeField] private string[] _sourceMemberNames;
-    [SerializeField] private List<MemberInfo> _sourceMembers;
+    [SerializeField] private List<MemberInfo> _sourceMembers = new List<MemberInfo>();
     [SerializeField] private string _formatString = "{0}";
 
     private ValueAccessor accessor;
